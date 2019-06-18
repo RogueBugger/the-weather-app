@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sketch.css" />
+    <title>The weather app</title>
+</head>
+
+<body>
+    <h1>Fetch data</h1>
+    <div>enter |<a href="/logs"> list </a></div>
+    <p>
+        The weather hear at <span id="latitude"> </span>&deg;
+        <span id="longitude"></span>&deg; is <span id="summary"></span> with temperature of <span id="temperature"></span>&deg;C.
+        <span id="parameter"></span> <span id="value"></span>
+        <span id="unit"></span>
+        <span id="lastUpdated"></span>
+    </p>
+    <script src="index.js"></script>
+</body>
+
+</html>
